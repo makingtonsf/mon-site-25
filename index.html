@@ -1,0 +1,132 @@
+HTML:
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Makington SAINT-FLEUR</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Makington <span>SAINT-FLEUR</span></div>
+            <ul class="nav-links">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h1>Hello, Bienvenue sur mon Portfolio! Je suis <span class="highlight">Makington SAINT-FLEUR</span>,</h1>
+            <p>Ingénieur industriel de formation, Analyste de données et développeur en devenir passionné par le developpement web, mobile et le design !</p>
+            <a href="#" class="btn">Voir mes projets</a>
+        </div>
+        <div class="image">
+            <img src="/Aluno.png" alt="Illustration Développement Web">
+        </div>
+    </section>
+
+    <!-- SECTION À PROPOS -->
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je m'appelle <span class="highlight">Makington SAINT-FLEUR</span>, étudiant mémorant en génie industriel à l’Université Quisqueya, Analyste de données certifié par Google, mobile developpeur et passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant en <span class="highlight">développement web et mobile avec l'Organisation Internationale de la Francophonie (OIF) sur la plateforme DCLIC</span> et j'améliore mes compétences en HTML, CSS et JavaScript.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <a href="#" class="btn">Télécharger mon CV</a>
+            </div>
+            <div class="about-image">
+                <img src="/Makington.png" alt="Photo de Makington">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PROJETS -->
+    <section id="projects" class="projects">
+        <h2>Mes Projets</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <p>Un plan de maintenance préventive pour une génératrice Caterpillar avec un Dashboard associé</p>
+                <span>#Excel #Visualisation des données</span>
+                <a href="#" class="btn">Voir plus</a>
+            </div>
+            <div class="project-card">
+                <p>Analyse de données avec Python et R en utilisant des techniques de statistiques descriptive</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+           <!-- <div class="project-card">
+                <p>Création d'une Base de données en langage SQL permettant la gestion des comptes bancaires et des transactions en utilisant des outils comme MySQL Workbench et ErdPlus</p>
+                <a href="#" class="btn">Voir</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- SECTION COMPÉTENCES -->
+    <section id="skills" class="skills">
+        <h2>Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <p>Flexibilité et Adaptabilité</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                <p>Résolution de problèmes</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                <p>Esprit Technique</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="hard-skills">
+                <h3>Hard Skills</h3>
+                <p>HTML</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                <p>CSS</p>
+                <div class="progress-bar"><div class="progress" style="width: 80;"></div></div>
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="hard-skills">
+                <h3>Engineering Skills</h3>
+                <p>Optimisation des processus</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                <p>Gestion de la Chaine Logistique</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                <p>Gestion de la qualité</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+        <p>Besoin de me contacter ? Remplissez ce formulaire :</p>
+        <form action="#" method="POST" class="form">
+            <div class="input-group">
+                <input type="text" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="input-group">
+                <textarea name="message" placeholder="Votre message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Makington SAINT-FLEUR. Tous droits réservés.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

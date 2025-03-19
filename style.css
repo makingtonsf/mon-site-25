@@ -1,0 +1,266 @@
+CSS
+
+
+/* SECTION CONTACT */
+/*.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #00d2c6, #007f73);
+    color: white;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}*/
+/* Pied de page (Footer) */
+footer {
+    text-align: center; /* Centre le texte */
+    background-color: #111; /* Fond foncé pour cohérence */
+    color: white; /* Texte blanc */
+    padding: 15px 0; /* Espacement en haut et en bas */
+    font-size: 14px; /* Taille du texte */
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-group textarea {
+    height: 120px;
+    resize: none;
+}
+
+.btn {
+    background-color: #00d2c6 ;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+.contact {
+    background-color: white;
+    color: #00d2c6;
+    padding: 12px 20px;
+    border: none;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.contact .btn:hover {
+    background-color: #00b5a1;
+    color: white;
+}
+
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Barre de navigation */
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #00d2c6;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00d2c6;
+}
+
+/* Section d'accueil */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.highlight {
+    color: #00d2c6;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #00d2c6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #00b5a1;
+}
+
+/* Image */
+.image img {
+    width: 400px;
+    max-width: 100%;
+}
+/* Section À propos */
+.about {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.about-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00d2c6;
+}
+
+/* Section Projets */
+.projects {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Compétences */
+.skills {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.progress {
+    height: 10px;
+    background-color: #00d2c6;
+    border-radius: 5px;
+}
+.footer {
+    text-align: center;
+}
